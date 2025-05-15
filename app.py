@@ -52,6 +52,6 @@ if query:
         try:
             with st.spinner("Fetching audio..."):
                 audio_url, _ = get_audio_url(video_url)
-                st.audio(audio_url, format="audio/mp4")
+                st.audio(audio_url, format="audio/mp4/webm")
         except Exception as e:
             st.error(f"❌ Could not stream audio.")
