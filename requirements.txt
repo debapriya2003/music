@@ -1,0 +1,5 @@
+streamlit
+requests
+yt_dlp
+os
+dotenv
