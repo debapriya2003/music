@@ -54,4 +54,4 @@ if query:
                 audio_url, _ = get_audio_url(video_url)
                 st.audio(audio_url, format="audio/mp4")
         except Exception as e:
-            st.error(f"❌ Could not stream audio.\n\n{e}")
+            st.error(f"❌ Could not stream audio.")
